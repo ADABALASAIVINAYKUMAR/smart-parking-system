@@ -1,90 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Smart Parking System</title>
-
-<style>
-
-body{
-font-family:Arial,sans-serif;
-background:#0f172a;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-h1{
-margin-bottom:20px;
-}
-
-.card{
-background:#1e293b;
-padding:20px;
-margin:15px auto;
-max-width:600px;
-border-radius:15px;
-}
-
-.slots{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:15px;
-max-width:600px;
-margin:auto;
-}
-
-.slot{
-padding:40px;
-border-radius:15px;
-font-size:22px;
-font-weight:bold;
-}
-
-.available{
-background:green;
-}
-
-.occupied{
-background:red;
-}
-
-</style>
-
+<title>Smart Parking Dashboard</title>
 </head>
+<body style="background:black;color:white;text-align:center;font-family:Arial;">
 
-<body>
+<h1>🚗 SMART PARKING DASHBOARD</h1>
 
-<h1>🚗 Smart Parking System</h1>
+<h2>Available Slots: 4</h2>
 
-<div class="card">
-<h2 id="available">Available Slots : 4</h2>
-</div>
+<h3>Slot 1 🟢 Available</h3>
+<h3>Slot 2 🟢 Available</h3>
+<h3>Slot 3 🟢 Available</h3>
+<h3>Slot 4 🟢 Available</h3>
 
-<div class="slots">
-
-<div id="slot1" class="slot available">
-Slot 1
-</div>
-
-<div id="slot2" class="slot available">
-Slot 2
-</div>
-
-<div id="slot3" class="slot available">
-Slot 3
-</div>
-
-<div id="slot4" class="slot available">
-Slot 4
-</div>
-
-</div>
-
-<div class="card">
-<h2 id="gate">Gate Status : CLOSED</h2>
-</div>
+<h2>Gate Status: CLOSED</h2>
 
 </body>
 </html>
